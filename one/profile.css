@@ -1,0 +1,227 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400&family=Roboto:wght@300&display=swap');
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+    font-family: "Noto Sans TC", Roboto, Sans-serif;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* 以上為CSS Reset */
+
+img{
+width:100%;
+height:auto;
+display:block; 
+}
+
+*,*::before,*::after{
+box-sizing:border-box;
+}
+
+a{
+text-decoration:none;
+color: white;}
+
+li{
+		list-style: none;
+}
+
+.d-flex{
+    display:flex;
+}
+
+.center{
+    width: 1200px;
+    margin: 0 auto;
+}
+
+p, li{
+    font-size: 24px;
+}
+
+/* 以上 public set */
+
+
+
+main{
+    flex-direction: column;
+}
+
+h1{
+    font-size: 80px;
+    border-bottom: 2px solid black;
+    padding-bottom: 16px;
+    margin-bottom: 48px;
+}
+
+.title{
+    align-items: center;
+    padding-bottom: 8px;
+    border-bottom: 1px solid black;
+    margin-bottom: 16px;
+    font-weight: bold;
+}
+
+h2{
+    font-size: 32px;
+    margin-right: 16px;
+    
+}
+
+.eng_title{
+    font-size: 24px;
+    color:#A00404;
+}
+
+.photo{
+    width: 324px;
+    height: 324px;
+    margin-bottom: 58px;
+}
+
+.profile{
+    font-size: 24px;
+    line-height: 36px;
+    margin-bottom: 58px;
+}
+
+.profile ul{
+    margin-bottom: 24px;
+}
+
+.education{
+    margin-bottom: 48px;
+}
+
+.education ul{
+    font-size: 24px;
+}
+
+.education li{
+    margin-bottom: 24px;
+}
+
+.skills, .contact{
+    flex-direction: column;
+    background:#415165; 
+    width: 100%;
+    align-items: center;
+    color: #fff;
+    margin-bottom: 72px;
+}
+
+hr{
+    width: 996px;
+    margin-bottom: 40px;
+}
+
+.title2{
+    align-items: center;
+    padding-top: 24px;
+    padding-bottom: 8px;
+    font-weight: bold;
+}
+
+.skills ul{
+    border-left: 2px solid rgba(189, 189, 189, 0.3);
+    padding: 4px 16px;
+    margin-bottom: 36px;
+}
+
+.skills li{
+    margin-bottom: 20px;
+    font-weight: normal;
+}
+
+.skills li:nth-last-child(1){
+    margin-bottom: 0;
+}
+
+h3{
+    font-size: 24px;
+}
+
+.work_exp ul{
+    padding-left: 16px;
+    margin-left: 16px;
+    border-left: 2px solid rgba(184, 184, 184, 0.3);
+}
+
+.work_exp li{
+    margin-bottom: 24px;
+}
+
+.work_exp img{
+    width: 90px;
+    height: 90px;
+    margin: 8px 0;
+}
+
+.work_exp p{
+    width: 640px;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.contact ul{
+    text-align: center;
+}
+
+.contact li{
+    margin-bottom: 16px;
+}
+.icon{
+    margin-bottom: 36px;
+}
+
+.icon li{
+    margin: 0 12px;
+}
+
+.contact{
+    margin-bottom: 0;
+}
